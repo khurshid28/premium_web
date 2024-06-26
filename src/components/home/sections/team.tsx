@@ -6,9 +6,16 @@ import muhammadumarImg from "../../../assets/muhammadumar.png"
 
 import muhammadjonImg from "../../../assets/muhammadjon.png"
 import husniddinImg from "../../../assets/husniddin.png"
+import sardorImg from "../../../assets/sardor.png"
 
 export default function Team() {
     const users = [
+        {
+            "image": sardorImg,
+            "name": "Сардор Туропов",
+            "role": "Директор",
+            "instagram": "https://www.instagram.com/sardor_chik18/",
+        },
         {
             "image": khurshidImg,
             "name": "Хуршид Исмоилов",
